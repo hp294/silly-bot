@@ -11,7 +11,9 @@ function answerQuery(query) {
   } else {
 	  if (v.includes(query, "tea"){
 	  return "I would love some tea, but they have not created one for silicon-based life forms yet."
-  } return "Sorry Dave, I cannot do that."
+	} else {
+	  return "Sorry Dave, I cannot do that."
+	}
   }
 }
  
